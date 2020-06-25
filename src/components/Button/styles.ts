@@ -31,14 +31,3 @@ export const Container = styled.button<ButtonProps>`
       cursor: not-allowed;
     `}
 `;
-
-export const ButtonLoading = styled.div<ButtonProps>`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: background-color 0.2s;
-
-  svg {
-    margin-right: 16px;
-  }
-`;

@@ -12,9 +12,9 @@ import Dashboard from '../pages/Dashboard';
 
 const Routes: React.FC = () => (
   <Switch>
-    <Route path="/" exact component={SignIn} />
+    <Route exact path="/" component={SignIn} />
     <Route path="/signup" component={SignUp} />
-    <Route path="/Profile" component={Profile} isPrivate />
+    <Route path="/profile" component={Profile} isPrivate />
     <Route path="/forgot-password" component={ForgotPassword} />
     <Route path="/reset-password" component={ResetPassword} />
 
